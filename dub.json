@@ -1,0 +1,29 @@
+{
+    "name": "planetopia",
+
+    "description": "planetopia",
+
+    "dependencies": {
+        "derelict-sdl2": "~>1.2.0",
+        "gl3n": "~master",
+        "glamour-drey": ">=0.0.3-alpha",
+        "derelict-assimp3": "~master",
+        "glfw-drey": ">=0.0.2",
+        "dgl": ">=0.0.5",
+        "glwtf-drey": ">=0.0.1",
+    },
+
+    "libs-posix": [
+		"glfw"
+	],
+
+    "versions": [
+        "gl3n",
+        "glad",
+        "SDLImage2",
+    ],
+
+    "targetType": "executable",
+
+    "sourcePaths": ["engine", "game"],
+}
