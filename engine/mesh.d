@@ -173,3 +173,8 @@ private:
 
 	Model model;
 }
+
+struct MeshManager {
+	/// Filename to Mesh*
+	Mesh*[string] meshes;
+}
